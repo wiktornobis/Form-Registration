@@ -1,0 +1,67 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255, 0.4);
+    border-radius: 4px;
+    font-size: 12px;
+
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+
+
+
+
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.input-control input {
+    border-radius: 4px;
+    border: 2px solid #f0f0f0;
+    display: block;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 100%;
+    opacity: 0.7;
+}
+.input-control input:focus {
+    outline: 0;
+
+}
+.input-control.success input {
+    border-color: #09c372;
+
+}
+.input-control.error input {
+    border-color: #ff3860;
+
+}
+
+.input-control .error input {
+    border-color: #ff3860;
+
+}
